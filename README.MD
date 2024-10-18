@@ -1,4 +1,4 @@
-# Java Docs - Chia Sẻ Kiến Thức Học Java Từ Cơ Bản Đến Nâng Cao
+# Java Docs - Học Java Từ Cơ Bản Đến Nâng Cao
 
 Chào mừng bạn đến với **Java Docs**, một repository chuyên chia sẻ kiến thức học Java từ cơ bản đến nâng cao. Mục tiêu của repository này là giúp mọi người hiểu rõ và làm chủ ngôn ngữ lập trình Java, từ những bước đầu tiên cho đến các khái niệm và kỹ thuật nâng cao.
 
