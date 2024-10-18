@@ -15,31 +15,34 @@ Java Development Kit (JDK) là cần thiết để biên dịch và chạy các 
 
    - Truy cập trang [Oracle JDK download](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
    - Chọn phiên bản phù hợp với hệ điều hành của bạn (Windows, macOS, hoặc Linux).
-
 2. **Cài Đặt JDK 17**
 
    - Chạy trình cài đặt và làm theo hướng dẫn.
    - Thiết lập biến môi trường:
-     - **Windows**: Vào **System Properties** ➔ **Environment Variables**, thêm biến mới tên là `JAVA_HOME` trỏ đến thư mục cài đặt JDK.
-     - **macOS/Linux**: Thêm `export JAVA_HOME=/path/to/jdk` vào tệp cấu hình shell của bạn (ví dụ: `.bashrc`, `.zshrc`).
 
+     - **Windows**: Vào **System Properties** ➔ **Environment Variables**, thêm đường dẫn đến thư mục **/bin** của java jdk.
+
+     ```bash
+      C:\Program Files\Java\jdk-17\bin
+     ```
+
+     - **macOS/Linux**: Thêm `export JAVA_HOME=/path/to/jdk` vào tệp cấu hình shell của bạn (ví dụ: `.bashrc`, `.zshrc`).
 3. **Xác Minh Cài Đặt**
 
    - Mở terminal hoặc command prompt và chạy lệnh:
      ```
-     java -version
+     java --version
      ```
    - Bạn sẽ thấy thông tin phiên bản JDK 17.
 
-### Bước 2: Cài Đặt JavaFX
+### Bước 2: Cài Đặt JavaFX (Optional)
 
-JavaFX là một bộ công cụ để phát triển giao diện người dùng cho Java.
+JavaFX là một bộ công cụ để phát triển giao diện người dùng cho Java. 
 
 1. **Tải JavaFX SDK**
 
    - Truy cập trang [Gluon JavaFX download](https://gluonhq.com/products/javafx/).
    - Tải phiên bản phù hợp với hệ điều hành của bạn.
-
 2. **Cài Đặt JavaFX SDK**
 
    - JavaFX không bắt buộc phải cài đặt khi bạn cài đặt môi trường Java, nhưng nếu bạn dự định xây dựng ứng dụng JavaFX, bạn cần tải JavaFX SDK và cấu hình trong IDE của bạn.
@@ -52,7 +55,6 @@ IntelliJ IDEA là một môi trường phát triển tích hợp (IDE) phổ bi�
 
    - Truy cập trang [IntelliJ IDEA download](https://www.jetbrains.com/idea/download/).
    - Chọn phiên bản **Community Edition** (miễn phí) phù hợp với hệ điều hành của bạn.
-
 2. **Cài Đặt IntelliJ IDEA**
 
    - Chạy trình cài đặt đã tải về và làm theo hướng dẫn.
@@ -66,11 +68,9 @@ Scene Builder được sử dụng để tạo giao diện JavaFX một cách tr
 
    - Truy cập trang [Gluon Scene Builder download](https://gluonhq.com/products/scene-builder/).
    - Tải phiên bản phù hợp với hệ điều hành của bạn.
-
 2. **Cài Đặt Scene Builder**
 
    - Chạy trình cài đặt và làm theo hướng dẫn.
-
 3. **Tích Hợp Scene Builder với IntelliJ IDEA**
 
    - Mở IntelliJ IDEA, vào **File** ➔ **Settings** ➔ **Languages & Frameworks** ➔ **JavaFX**.
@@ -84,11 +84,9 @@ SQLite là một cơ sở dữ liệu nhẹ thường được sử dụng trong
 
    - Truy cập trang [SQLite download](https://www.sqlite.org/download.html).
    - Tải **command-line shell** cho hệ điều hành của bạn.
-
 2. **Cài Đặt SQLite**
 
    - Giải nén tệp đã tải về vào một vị trí thuận tiện.
-
 3. **Xác Minh Cài Đặt**
 
    - Mở terminal hoặc command prompt và chạy lệnh:
