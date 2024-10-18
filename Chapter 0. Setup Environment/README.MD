@@ -15,6 +15,7 @@ Java Development Kit (JDK) là cần thiết để biên dịch và chạy các 
 
    - Truy cập trang [Oracle JDK download](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
    - Chọn phiên bản phù hợp với hệ điều hành của bạn (Windows, macOS, hoặc Linux).
+
 2. **Cài Đặt JDK 17**
 
    - Chạy trình cài đặt và làm theo hướng dẫn.
@@ -27,6 +28,7 @@ Java Development Kit (JDK) là cần thiết để biên dịch và chạy các 
      ```
 
      - **macOS/Linux**: Thêm `export JAVA_HOME=/path/to/jdk` vào tệp cấu hình shell của bạn (ví dụ: `.bashrc`, `.zshrc`).
+
 3. **Xác Minh Cài Đặt**
 
    - Mở terminal hoặc command prompt và chạy lệnh:
@@ -37,12 +39,13 @@ Java Development Kit (JDK) là cần thiết để biên dịch và chạy các 
 
 ### Bước 2: Cài Đặt JavaFX (Optional)
 
-JavaFX là một bộ công cụ để phát triển giao diện người dùng cho Java. 
+JavaFX là một bộ công cụ để phát triển giao diện người dùng cho Java.
 
 1. **Tải JavaFX SDK**
 
    - Truy cập trang [Gluon JavaFX download](https://gluonhq.com/products/javafx/).
    - Tải phiên bản phù hợp với hệ điều hành của bạn.
+
 2. **Cài Đặt JavaFX SDK**
 
    - JavaFX không bắt buộc phải cài đặt khi bạn cài đặt môi trường Java, nhưng nếu bạn dự định xây dựng ứng dụng JavaFX, bạn cần tải JavaFX SDK và cấu hình trong IDE của bạn.
@@ -55,6 +58,7 @@ IntelliJ IDEA là một môi trường phát triển tích hợp (IDE) phổ bi�
 
    - Truy cập trang [IntelliJ IDEA download](https://www.jetbrains.com/idea/download/).
    - Chọn phiên bản **Community Edition** (miễn phí) phù hợp với hệ điều hành của bạn.
+
 2. **Cài Đặt IntelliJ IDEA**
 
    - Chạy trình cài đặt đã tải về và làm theo hướng dẫn.
@@ -68,36 +72,28 @@ Scene Builder được sử dụng để tạo giao diện JavaFX một cách tr
 
    - Truy cập trang [Gluon Scene Builder download](https://gluonhq.com/products/scene-builder/).
    - Tải phiên bản phù hợp với hệ điều hành của bạn.
+
 2. **Cài Đặt Scene Builder**
 
    - Chạy trình cài đặt và làm theo hướng dẫn.
+
 3. **Tích Hợp Scene Builder với IntelliJ IDEA**
 
    - Mở IntelliJ IDEA, vào **File** ➔ **Settings** ➔ **Languages & Frameworks** ➔ **JavaFX**.
    - Thiết lập **Path to Scene Builder** tới vị trí mà Scene Builder đã được cài đặt.
 
-### Bước 5: Cài Đặt SQLite (Cho Khóa Nâng Cao)
+### Bước 5: Cài Đặt SQLite Client - DB Browser (Cho Khóa Nâng Cao)
 
 SQLite là một cơ sở dữ liệu nhẹ thường được sử dụng trong phát triển Java.
 
-1. **Tải SQLite**
+1. **Tải DB Browswer**
 
-   - Truy cập trang [SQLite download](https://www.sqlite.org/download.html).
+   - Truy cập trang [DB Browser for SQLite download](https://sqlitebrowser.org/dl/).
    - Tải **command-line shell** cho hệ điều hành của bạn.
-2. **Cài Đặt SQLite**
 
-   - Giải nén tệp đã tải về vào một vị trí thuận tiện.
-3. **Xác Minh Cài Đặt**
+2. Cài đặt DB Browser
 
-   - Mở terminal hoặc command prompt và chạy lệnh:
-     ```
-     sqlite3 --version
-     ```
-   - Bạn sẽ thấy thông tin phiên bản của SQLite.
-
-## Cấu Hình Bổ Sung (Tùy Chọn)
-
-- **Thêm SQLite vào Đường Dẫn Hệ Thống**: Để sử dụng SQLite từ bất kỳ cửa sổ terminal nào, thêm đường dẫn đến SQLite vào biến `PATH` của hệ thống.
+   - Chạy trình cài đặt và làm theo hướng dẫn.
 
 ## Tóm Tắt
 
